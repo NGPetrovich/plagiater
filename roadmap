@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-26T10:16:25.667Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="eUdAKShDapW2IIOXQdPI" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-26T10:19:10.324Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="XcaV2RdR-adiTPuudQ-J" version="14.5.1" type="github">
   <diagram id="CP6uU1OEvEkNmSJ8ZLcZ" name="Page-1">
     <mxGraphModel dx="1608" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -515,25 +515,14 @@
         <mxCell id="EFCD7uuhAkXmHvzbr2Zc-4" value="Vanila JS" style="whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="435" y="1560" width="135" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EFCD7uuhAkXmHvzbr2Zc-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFCD7uuhAkXmHvzbr2Zc-7" target="LZJ9dOxhDeIT0oWAEd_1-146">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="860" y="1375" />
-              <mxPoint x="860" y="1460" />
-              <mxPoint x="346" y="1460" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="EFCD7uuhAkXmHvzbr2Zc-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="EFCD7uuhAkXmHvzbr2Zc-7" target="EFCD7uuhAkXmHvzbr2Zc-114">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EFCD7uuhAkXmHvzbr2Zc-7" value="GSAP" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="715" y="1360" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EFCD7uuhAkXmHvzbr2Zc-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFCD7uuhAkXmHvzbr2Zc-10" target="LZJ9dOxhDeIT0oWAEd_1-146">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="775" y="1460" />
-              <mxPoint x="346" y="1460" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="EFCD7uuhAkXmHvzbr2Zc-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="EFCD7uuhAkXmHvzbr2Zc-10" target="EFCD7uuhAkXmHvzbr2Zc-114">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EFCD7uuhAkXmHvzbr2Zc-10" value="anime.js" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="715" y="1410" width="120" height="30" as="geometry" />
@@ -888,7 +877,7 @@
         <mxCell id="EFCD7uuhAkXmHvzbr2Zc-157" value="jQuery" style="whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="1800" y="1761" width="135" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EFCD7uuhAkXmHvzbr2Zc-161" value="Nikita&#39;s Dreams:&lt;br&gt;&lt;br&gt;- Become Fullstack Developer&lt;br&gt;- Develop own mobile application" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+        <mxCell id="EFCD7uuhAkXmHvzbr2Zc-161" value="Nikita&#39;s Dreams:&lt;br&gt;&lt;br&gt;- Become Fullstack Developer&lt;br&gt;- Develop own mobile application&lt;br&gt;- Create own platform for developing simple mobile applications" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="1839" width="500" height="200" as="geometry" />
         </mxCell>
       </root>
