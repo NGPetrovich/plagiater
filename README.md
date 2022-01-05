@@ -6,7 +6,7 @@ Used this video tutorial:
   <li>table-reservation-app: https://youtu.be/ysTjs_HYq0c</li>
 </ul>
 
-Why? - Because I needed to learn how to create the functionality for Mediconsult repository.
+Why? - Because I needed to learn how to create the functionality for Mediconsult repository.</br>
 What I learned?
 
 <ol>
