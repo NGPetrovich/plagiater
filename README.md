@@ -1,3 +1,6 @@
-# plagiater
-website to support another website
-used to add cool elements, components of code, and even ready-made pages to build test and learn how to build the main website that I am working on.
+# Plagiat of Calendar App
+I used the video tutorial to plagiate this calendar.
+<ul>
+<li>Reference to Part 1: https://youtu.be/9U0uTNfY1UA</li>
+<li>Reference to Part 2: https://youtu.be/5vYJO0zRfbQ</li>
+</ul>
