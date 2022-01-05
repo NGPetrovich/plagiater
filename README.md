@@ -1,3 +1,2 @@
-# plagiater
-website to support another website
-used to add cool elements, components of code, and even ready-made pages to build test and learn how to build the main website that I am working on.
+# Turku Uni assignment: UML diagrams
+4 diagrams: 1) UML diagram 2) Gantt chart 3) ... 4) ... (I forgot #3 and #4).
