@@ -1,20 +1,24 @@
-import React, {useState} from 'react';
+import React from 'react';
+import Calendar from './components/Calendar'
 
-import NavbarPage from './components/Navbar';
-import Main from "./components/Main";
-import Book from "./components/Book";
-import ThankYou from "./components/ThankYou";
+const style = {
+	position: "relative",
+	margin: "50px auto"
+}
 
-function App() {
-  const [page, setPage] = useState(1);
-  return (
-    <div>
-      <NavbarPage setPage={setPage} />
-      {page === 0 ? <Main setPage={setPage} /> : null}
-      {page === 1 ? <Book setPage={setPage} /> : null}
-      {page === 2 ? <ThankYou /> : null}
-    </div>
-  );
+class App extends React.Component {
+    onDayClick = (day) => {
+        alert(day);
+    }
+
+    render() {
+        return (
+            <div className="App">
+                <Calendar style={style} width="302px" 
+					onDayClick={(e, day)=> this.onDayClick(e, day)}/>
+            </div>
+        );
+    }
 }
 
 export default App;
