@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-
 import NavbarPage from './components/Navbar';
 import Main from "./components/Main";
 import Book from "./components/Book";
