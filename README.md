@@ -8,7 +8,8 @@ Here is the list of projects I plagiated:
   <li>calendar-app Part 1: https://youtu.be/9U0uTNfY1UA</li>
   <li>calendar-app Part 2: https://youtu.be/5vYJO0zRfbQ</li>
   <li>table-reservation-app: https://youtu.be/ysTjs_HYq0c</li>
-  <li></li>
+  <li>JAMStack crash course Part 1: https://youtu.be/73b1ZbmB96I</li>
+  <li>JAMStack crash course Part 2: https://youtu.be/VxlbcoJ3nnc</li>
 </ul>
 
 Huge thanks to these guys for offering the free-of-charge video tutorials on building their projects!
