@@ -1,14 +1,6 @@
 import React from "react";
 
 export default function Review({ review, refreshReviews }) {
-  // const gameChanger = true;
-
-  // if (finished === false) {
-  //   gameChanger = true;
-  // } else {
-  //   gameChanger = false;
-  // }
-
   const markReviewFinished = async () => {
     try {
       await fetch("/.netlify/functions/reviews", {
@@ -34,7 +26,7 @@ export default function Review({ review, refreshReviews }) {
   return (
     <div className="list-group-item">
       <h6 className="list-group-item-heading mb-2">{review.name}</h6>
-      <p className="list-group-item mb-2">Author(s): {review.author}</p>
+      {/* <p className="list-group-item mb-2">Author(s): {review.author}</p>
       <p className="list-group-item">Key Learnings: {review.learnings}</p>
       <p>
         Tags:{" "}
@@ -42,20 +34,20 @@ export default function Review({ review, refreshReviews }) {
           review.tags.map((tag) => (
             <span className="badge bg-primary me-2">{tag}</span>
           ))}
-      </p>
+      </p> */}
       {!review.finished && (
         <button
           className="btn btn-sm btn-success mb-2"
           onClick={markReviewFinished}
         >
-          Completed Reading
+          Completed Task
         </button>
       )}
       <button
         className="btn btn-sm btn-danger mx-2 mb-2"
         onClick={deleteReview}
       >
-        Delete
+        Delete Task
       </button>
     </div>
   );

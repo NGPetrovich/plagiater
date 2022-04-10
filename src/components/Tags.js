@@ -2,12 +2,10 @@ import React, { useState, useEffect } from "react";
 
 export default function Tags({ tagsUpdated, key }) {
   const tagChoices = [
-    "football",
-    "web-development",
-    "data analytics",
-    "marketing",
-    "sports betting",
-    "other",
+    "Urgent and Important",
+    "Important and not-urgent",
+    "Urgent and not-important",
+    "Not-urgent and not-important",
   ];
   const [selectedTags, setSelectedTags] = useState([]);
 
@@ -32,8 +30,8 @@ export default function Tags({ tagsUpdated, key }) {
   return (
     <>
       {tagChoices.map((choice, index) => (
-        <label className="checkbox-inline me-4" key={index}>
-          <input type="checkbox" value={choice} onChange={tagChange} />
+        <label className="radio-inline me-4" key={index}>
+          <input type="radio" value={choice} onChange={tagChange} />
           {" " + choice}
         </label>
       ))}

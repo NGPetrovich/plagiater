@@ -19,7 +19,7 @@ function App() {
   }, []);
   return (
     <div className="container mt-5">
-      <h1 className="mb-5 text-center">Literature Review</h1>
+      <h1 className="mb-5 text-center">Magic B-Tasks</h1>
       <ReviewForm reviewAdded={loadReviews} />
       <ReviewList reviews={reviews} refreshReviews={loadReviews} />
     </div>
